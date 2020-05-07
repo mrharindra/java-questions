@@ -1,5 +1,6 @@
 package opps;
 
+
 class A
 {
 	public A()
@@ -39,7 +40,7 @@ class B extends A
 
 public class OverrideTest1 {
 	public static void main(String[] args) 
-	{
+	{		
 		A a = new B();
 		
 		/* What will be printed?
